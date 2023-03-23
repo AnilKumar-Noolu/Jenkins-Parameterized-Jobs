@@ -24,15 +24,21 @@ A single Jenkins job can have multiple parameters. The only restriction is that 
 
 Let us Take the example of choice type Parameter:
 
-![Screenshot (10)](https://user-images.githubusercontent.com/98457309/227214866-6cd2f43f-8ccd-4d42-884a-bb15787b4159.png)
+![Screenshot (10)](https://user-images.githubusercontent.com/98457309/227216587-a53356b2-a2d7-44e8-a19a-3359afd758ae.png)
 
 Here we have given Name as fruits, given choices and description.
 
 Go to Build step and select Shell, add a shell command here: echo $fruits
 
-![Screenshot (11)](https://user-images.githubusercontent.com/98457309/227215160-88834b97-c6e5-46fa-a45b-a5a682a497d5.png)
+![Screenshot (11)](https://user-images.githubusercontent.com/98457309/227216716-c1d263a3-d521-4e8e-9aa4-5b02671d2459.png)
 
-after that save that job, and previously you used to have Build Option, Now it will be Build With Parameters, click that and select ypur favourite fruit. Once the job run is completed, you will get that output.
+after that save that job, and previously you used to have Build Option, Now it will be Build With Parameters, click that and select ypur favourite fruit. 
 
-![Screenshot (12)](https://user-images.githubusercontent.com/98457309/227215517-97771693-00e5-4b9a-b208-f35304737924.png)
+![Screenshot (12)](https://user-images.githubusercontent.com/98457309/227216811-019bb5a1-a437-4365-8243-6ec39187cd51.png)
+
+Once the job run is completed, you will get the desired output.
+![Screenshot (13)](https://user-images.githubusercontent.com/98457309/227216926-7e4cefc3-83df-4c6e-9daf-880433f2da33.png)
+
+
+
 
