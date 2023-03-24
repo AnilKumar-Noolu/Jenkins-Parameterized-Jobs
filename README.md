@@ -1,5 +1,5 @@
 # Jenkins-Parameterized-Jobs
-Parameterizing jobs in Jenkins
+This Repo is for Parameterizing jobs in Jenkins
 
 A build Parameter allows us to pass data into our jenkins jobs. 
 Using Build Parameters, we can pass any data we want like git branch name, secret credentials, hostnames and ports.....
